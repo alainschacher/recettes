@@ -1,0 +1,257 @@
+@CHARSET "UTF-8";
+
+body {
+    background-color: #EEEEEE;
+    color: #333333;
+    font-family: Georgia,Verdana,Helvetica,Arial;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+html, body {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+.avec-bords, 
+.avec-bords th, 
+.avec-bords td 
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.oblig{
+    border-left:2px solid red;
+}
+.pair	{
+	background: #e6ebed;
+	border: 0px;
+}
+
+.impair {
+	background: #d0d4d7;
+	border: 0px;
+}
+
+#logo {
+    text-align: right;
+    padding-right: 10%;
+}
+
+#head {
+    background-position: left top;
+    background-repeat: repeat-x;
+    margin: 0;
+}
+#head .rc {
+    background: white;
+    height: 120px;
+}
+#head .rc .MilieuLayout {
+    float: left;
+    color: #7C799C;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    /*padding: 6px 20px;*/
+    text-align: left;
+    vertical-align: top;
+    width:50%;
+    height: 90%;
+}
+#head .rc .infcomp {
+    float: right;
+    width:40%;
+    height: 100%;
+}
+.rc {
+    margin: 0;
+    border: 2px solid black;
+}
+
+.rc .HautLayout {
+    height: 0;
+    margin: 0;
+}
+
+.rc .basLayout {
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+.MilieuLayout {
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 12px 0 0 20px;
+}
+.menuCote {
+    border-bottom-width: 0;
+    margin: 5px 0;
+    padding: 0;
+    width: auto;
+}
+
+#colgauche {
+    float: left;
+    margin: 10px 0;
+    width: 50%;
+}
+
+#coldroite {
+    float: right;
+    margin: 10px 0;
+    padding: 0 0 10px;
+    width: 50%;
+}
+#cont_droite
+{
+	width:100%;	
+}
+
+#main-init {
+    clear: both;
+    margin: 0 auto;
+    width: 95%;
+}
+
+#main_content {	
+    
+	padding-top: 10px;
+	margin: 0 auto;
+	min-height: 400px;
+}
+.explications {
+    background-color: #f6e0bc;
+    border: 1px solid #444444;
+    font: 12px Arial,Verdana,Helvetica;
+    margin: 12px;
+    padding: 10px;
+}
+
+.info {
+    background-color: greenyellow;
+    border: 1px solid #444444;
+    font: 10px Arial,Verdana,Helvetica;
+    margin: 12px;
+    padding: 10px;
+}
+
+legend {
+    background-color: #ffc6b7;
+    /*background-image: url("nav.jpg");
+    background-position: left top;
+    background-repeat: repeat-x;*/
+    border: 1px solid #D0CDFF;
+    border-radius: 10px;
+    color: #333333;
+    font-family: Georgia,Arial,Verdana,Helvetica;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 10px;
+}
+
+a:link, a:visited {
+    color: #333333;
+    text-decoration: underline;
+}
+
+.maxtab {
+    width: 100%;
+    border: 1px solid #CCCCCC;
+    border-collapse: collapse;
+    margin: 12px 0;
+}
+
+.maxtab th {
+    background-color: #DEDEFF;
+    border: 1px solid #666666;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 4px;
+    text-align: left;
+    vertical-align: middle;
+}
+.maxtab tr {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #DDDDDD;
+    vertical-align: top;
+}
+
+.maxtab td {
+    font-family: Verdana,Helvetica,Arial;
+    font-size: 11px;
+    font-weight: normal;
+    padding: 4px;
+}
+
+.labelTab {
+    width: 20%;
+    text-align: right;
+}
+
+#boutons_valide, 
+#printerlink,
+#liens,
+.message
+{
+    text-align: center;
+}
+
+.message
+{
+    color:red;
+    font-family: Georgia,Arial,Verdana,Helvetica;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+th {
+    border: 1px solid grey;
+}
+
+.tdl
+{
+    border-left:1px #DDDDDD solid;
+}
+.tdr
+{
+    border-right:1px #DDDDDD solid;
+}
+.thghb
+{
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom:1px solid black;
+}
+.thhbd
+{
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom:1px solid black;
+}
+.tdbord{
+    border: 1px solid black;
+    
+}
+.table50 {
+    width:50%;
+    margin: 0 auto;
+}
+.table60 {
+    width:60%;
+    margin: 0 auto;
+}
+.table70 {
+    width:70%;
+    margin: 0 auto;
+}
+.table80 {
+    width:80%;
+    margin: 0 auto;
+}
+.table90 {
+    width:90%;
+    margin: 0 auto;
+}

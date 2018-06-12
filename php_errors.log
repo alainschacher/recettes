@@ -1,0 +1,3 @@
+[25-Apr-2012 20:05:07] PHP Notice:  Undefined variable: film in D:\www\local\films\php\formfilm.php on line 4
+[25-Apr-2012 20:05:07] PHP Notice:  Undefined variable: numero in D:\www\local\films\php\formfilm.php on line 8
+[25-Apr-2012 20:05:13] PHP Warning:  mysql_connect(): Access denied for user 'films'@'localhost' (using password: YES) in D:\www\local\films\class\class_sys.php on line 32
